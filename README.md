@@ -19,11 +19,13 @@ JSON Response.
 
 TOKEN=your-client-id|some-token
 
+```
 curl -G -d "search_terms='cordoba'" \
     -d "ad_type=POLITICAL_AND_ISSUE_ADS" \
     -d "ad_reached_countries=['AR']" \
     -d "access_token=$TOKEN" \
     "https://graph.facebook.com/v17.0/ads_archive"
+```
 
 If your facebook app is not ready, you will get an error like this:
 
